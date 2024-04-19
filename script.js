@@ -28,6 +28,8 @@ function mudaCor(event){
                             localStorage.setItem("tema","branco");
                             break;
                             default:
+                                cardBody.classList.add("branco");
+                                localStorage.setItem("tema","branco");
                                 break;
     }
 }
@@ -48,5 +50,6 @@ switch(temaCard){
                             cardBody.classList.add("branco");
                             break;
                             default:
+                                cardBody.classList.add("branco");
                                 break;
     }
